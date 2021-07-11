@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+	font-size: 16px;
+	padding: 0px;
+}
+
+.nav{
+	background-color: lightgrey;
+	position: fixed;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a h1{
+	color: black;
+	font-size: 18px;
+	font-weight: normal;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.list{
+	display: inline-block;
+	font-size: 18px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+}
+
+.search{
+	padding-top: 80px;
+	padding-left: 60px;
+}
+
+input{
+	position: absolute;
+}
+.bar{
+	width: 330px;
+	height: 20px;
+}
+
+.img{
+	width: 20px;
+	border: 1px solid black;
+	left: 395px;
+	padding-bottom: 3px;
+	padding-right: 1px;
+	padding-left: 1px;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+.pages{
+	padding-top: 60px;
+	padding-left: 60px;
+	font-size: 0;
+}
+
+button{
+	height: 33px;
+	background-color: white;
+}
+
+.typ1{
+	width: 70px;
+}
+
+.centre{
+	width: 170px;
+	border-right: 0px;
+	border-left: 0px;
+	
+}
+
+.links{
+	padding-top: 40px;
+	padding-left: 60px;
+}
+
+.dates,.place{
+	opacity: 0.6;
+}
+
+.dates{
+	padding-right: 3px;
+}
+
+.data{
+	opacity: 1;
+	color: blue;
+	font-weight: 600;
+}
